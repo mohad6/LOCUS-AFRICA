@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/ASSIGNMENT/EXERCISE 3/STYLES.CSS"/>
-</head>
-<body>
-   
-</body>
+    <link rel="stylesheet" href="/ASSIGNMENT/EXERCISE 3/STYLES.CSS" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img
+          src="https://tse4.mm.bing.net/th/id/OIP.t288L2n900dEXpiC8CfeeQHaFj?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+        />
+      </div>
+      <nav>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <h2>WELCOME TO MY MINI WEBSITE</h2>
+      <p>
+        This is a simple mini website created as part of an assignment exercise.
+        It includes sections for About, Gallery, and Contact information
+      </p>
+
+      <section id="about" class="about">
+        <h3>About</h3>
+        <p>
+          This mini website is designed to showcase basic HTML structure and
+          styling using CSS. It serves as a practice project to enhance web
+          development skills.
+        </p>
+        <figure id="gallery">
+          <iframe
+            width="941"
+            height="588"
+            src="https://www.youtube.com/embed/nu_pCVPKzTk"
+            title="Full Stack Web Development for Beginners (Full Course on HTML, CSS, JavaScript, Node.js, MongoDB)"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <figcaption>Full Stack Web Development for Beginners</figcaption>
+        </figure>
+
+        <figure>
+          <iframe
+            width="941"
+            height="588"
+            src="https://www.youtube.com/embed/kUMe1FH4CHE"
+            title="Learn HTML – Full Tutorial for Beginners"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <figcaption>Learn HTML – Full Tutorial for Beginners</figcaption>
+        </figure>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            required
+          /><br /><br />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <footer>
+        <p>&copy; 2025 My Mini Website. All rights reserved</p>
+      </footer>
+    </main>
+  </body>
 </html>
